@@ -68,20 +68,31 @@
 
     <!-- More Projects Gallery -->
     <section id="more-projects">
-        <h2>🛠 More Projects</h2>
-        <div class="gallery">
-            <div class="gallery-item">
-                <img src="../some-other-repo/screenshots/demo.png" alt="Project Screenshot">
-                <p><a href="../some-other-repo">Small Tool #1</a></p>
-            </div>
-            <div class="gallery-item">
-                <img src="../another-repo/screenshots/demo.png" alt="Project Screenshot">
-                <p><a href="../another-repo">Small Tool #2</a></p>
-            </div>
-            <div class="gallery-item">
-                <img src="../experiment-repo/screenshots/demo.png" alt="Project Screenshot">
-                <p><a href="../experiment-repo">Experiment #1</a></p>
-            </div>
+    <h2>🛠 More Projects</h2>
+    <div class="gallery" id="gallery"></div>
+</section>
+
+<script>
+    const gallery = document.getElementById('gallery');
+
+    // List your small project images and optional names/links
+    const projects = [
+        {img: '../site/more-projects/project1.png', name: 'Small Tool #1', link: '../some-other-repo'},
+        {img: '../site/more-projects/project2.png', name: 'Small Tool #2', link: '../another-repo'},
+        {img: '../site/more-projects/project3.png', name: 'Experiment #1', link: '../experiment-repo'}
+        // Add more here
+    ];
+
+    projects.forEach(p => {
+        const div = document.createElement('div');
+        div.className = 'gallery-item';
+        div.innerHTML = `
+            <img src="${p.img}" alt="${p.name} screenshot">
+            <p><a href="${p.link}">${p.name}</a></p>
+        `;
+        gallery.appendChild(div);
+    });
+</script>
             <!-- Add more gallery items as needed -->
         </div>
     </section>
