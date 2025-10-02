@@ -97,8 +97,8 @@ Copy code
 
 ## 📬 Contact Me
 
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-- Email: your@email.com
+- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/fernando-bellegarde-381316b1)  
+- Email: fernandobellegarde64@gmail.com
 
 ---
 
