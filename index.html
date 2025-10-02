@@ -26,11 +26,10 @@
     <section id="projects">
         <h2>🚀 Featured Projects</h2>
 
-
-          <div class="project">
+        <div class="project">
             <h3>YouTube-Automation-Channel</h3>
-            <img src="https://github.com/fbellegarde/YouTube-Automation-Channel-Portfolio/blob/main/Screenshots/Screenshot%202025-10-02%20190442.png" alt="YouTube-Automation-Channel-Portfolio">
-            <p>An ml and ai pipeline for automated youtube video production</p>
+            <img src="https://raw.githubusercontent.com/fbellegarde/YouTube-Automation-Channel-Portfolio/main/Screenshots/Screenshot%202025-10-02%20190442.png" alt="YouTube-Automation-Channel-Portfolio">
+            <p>An ML and AI pipeline for automated YouTube video production.</p>
             <div class="badges">
                 <img src="https://img.shields.io/github/stars/fbellegarde/YouTube-Automation-Channel-Portfolio?style=flat-square" alt="Stars">
                 <img src="https://img.shields.io/github/forks/fbellegarde/YouTube-Automation-Channel-Portfolio?style=flat-square" alt="Forks">
@@ -42,8 +41,8 @@
 
         <div class="project">
             <h3>amazon_labor_board</h3>
-            <img src="../amazon_labor_board/screenshots/demo.png" alt="amazon_labor_board screenshot">
-            <p>A virtual labor board for the pack department at amazon</p>
+            <img src="https://raw.githubusercontent.com/fbellegarde/amazon_labor_board/main/screenshots/demo.png" alt="amazon_labor_board screenshot">
+            <p>A virtual labor board for the pack department at Amazon.</p>
             <div class="badges">
                 <img src="https://img.shields.io/github/stars/fbellegarde/amazon_labor_board?style=flat-square" alt="Stars">
                 <img src="https://img.shields.io/github/forks/fbellegarde/amazon_labor_board?style=flat-square" alt="Forks">
@@ -55,7 +54,7 @@
         
         <div class="project">
             <h3>AeroPricePredictor</h3>
-            <img src="../AeroPricePredictor/screenshots/demo.png" alt="AeroPricePredictor screenshot">
+            <img src="https://raw.githubusercontent.com/fbellegarde/AeroPricePredictor/main/screenshots/demo.png" alt="AeroPricePredictor screenshot">
             <p>An app that uses flight data to predict flight prices.</p>
             <div class="badges">
                 <img src="https://img.shields.io/github/stars/fbellegarde/AeroPricePredictor?style=flat-square" alt="Stars">
@@ -68,7 +67,7 @@
         
         <div class="project">
             <h3>Employee Dashboard (Flask App)</h3>
-            <img src="../employee-dashboard-flask/screenshots/demo.png" alt="Employee Dashboard screenshot">
+            <img src="https://raw.githubusercontent.com/fbellegarde/employee-dashboard-flask/main/screenshots/demo.png" alt="Employee Dashboard screenshot">
             <p>A web-based dashboard to manage employees, track shifts, and highlight top performers.</p>
             <div class="badges">
                 <img src="https://img.shields.io/github/stars/fbellegarde/employee-dashboard-flask?style=flat-square" alt="Stars">
@@ -76,12 +75,12 @@
                 <img src="https://img.shields.io/github/languages/top/fbellegarde/employee-dashboard-flask?style=flat-square" alt="Language">
                 <img src="https://img.shields.io/github/last-commit/fbellegarde/employee-dashboard-flask?style=flat-square" alt="Last Commit">
             </div>
-            <a href="../employee-dashboard-flask">View Repo</a>
+            <a href="https://github.com/fbellegarde/employee-dashboard-flask">View Repo</a>
         </div>
 
         <div class="project">
             <h3>Sales Analytics Dashboard (Streamlit)</h3>
-            <img src="../sales-analytics-streamlit/screenshots/demo.png" alt="Sales Analytics screenshot">
+            <img src="https://raw.githubusercontent.com/fbellegarde/sales-analytics-streamlit/main/screenshots/demo.png" alt="Sales Analytics screenshot">
             <p>A real-time sales analysis dashboard for visualizing quantity, fees, and profit.</p>
             <div class="badges">
                 <img src="https://img.shields.io/github/stars/fbellegarde/sales-analytics-streamlit?style=flat-square" alt="Stars">
@@ -89,12 +88,12 @@
                 <img src="https://img.shields.io/github/languages/top/fbellegarde/sales-analytics-streamlit?style=flat-square" alt="Language">
                 <img src="https://img.shields.io/github/last-commit/fbellegarde/sales-analytics-streamlit?style=flat-square" alt="Last Commit">
             </div>
-            <a href="../sales-analytics-streamlit">View Repo</a>
+            <a href="https://github.com/fbellegarde/sales-analytics-streamlit">View Repo</a>
         </div>
 
         <div class="project">
             <h3>NBA Data Scraper & Email Report</h3>
-            <img src="../nba-data-scraper/screenshots/demo.png" alt="NBA Data Scraper screenshot">
+            <img src="https://raw.githubusercontent.com/fbellegarde/nba-data-scraper/main/screenshots/demo.png" alt="NBA Data Scraper screenshot">
             <p>A Python script that scrapes NBA stats, saves data into CSV, and automatically emails results.</p>
             <div class="badges">
                 <img src="https://img.shields.io/github/stars/fbellegarde/nba-data-scraper?style=flat-square" alt="Stars">
@@ -102,46 +101,42 @@
                 <img src="https://img.shields.io/github/languages/top/fbellegarde/nba-data-scraper?style=flat-square" alt="Language">
                 <img src="https://img.shields.io/github/last-commit/fbellegarde/nba-data-scraper?style=flat-square" alt="Last Commit">
             </div>
-            <a href="../nba-data-scraper">View Repo</a>
+            <a href="https://github.com/fbellegarde/nba-data-scraper">View Repo</a>
         </div>
     </section>
 
     <!-- More Projects Gallery -->
     <section id="more-projects">
-    <h2>🛠 More Projects</h2>
-    <div class="gallery" id="gallery"></div>
-</section>
-
-<script>
-    const gallery = document.getElementById('gallery');
-
-    // List your small project images and optional names/links
-    const projects = [
-        {img: '../site/more-projects/project1.png', name: 'Small Tool #1', link: '../some-other-repo'},
-        {img: '../site/more-projects/project2.png', name: 'Small Tool #2', link: '../another-repo'},
-        {img: '../site/more-projects/project3.png', name: 'Experiment #1', link: '../experiment-repo'}
-        // Add more here
-    ];
-
-    projects.forEach(p => {
-        const div = document.createElement('div');
-        div.className = 'gallery-item';
-        div.innerHTML = `
-            <img src="${p.img}" alt="${p.name} screenshot">
-            <p><a href="${p.link}">${p.name}</a></p>
-        `;
-        gallery.appendChild(div);
-    });
-</script>
-            <!-- Add more gallery items as needed -->
-        </div>
+        <h2>🛠 More Projects</h2>
+        <div class="gallery" id="gallery"></div>
     </section>
+
+    <script>
+        const gallery = document.getElementById('gallery');
+
+        // List your small project images and links (replace <repo-name> and filenames)
+        const projects = [
+            {img: 'https://raw.githubusercontent.com/fbellegarde/<repo-name>/main/more-projects/project1.png', name: 'Small Tool #1', link: 'https://github.com/fbellegarde/some-other-repo'},
+            {img: 'https://raw.githubusercontent.com/fbellegarde/<repo-name>/main/more-projects/project2.png', name: 'Small Tool #2', link: 'https://github.com/fbellegarde/another-repo'},
+            {img: 'https://raw.githubusercontent.com/fbellegarde/<repo-name>/main/more-projects/project3.png', name: 'Experiment #1', link: 'https://github.com/fbellegarde/experiment-repo'}
+        ];
+
+        projects.forEach(p => {
+            const div = document.createElement('div');
+            div.className = 'gallery-item';
+            div.innerHTML = `
+                <img src="${p.img}" alt="${p.name} screenshot">
+                <p><a href="${p.link}">${p.name}</a></p>
+            `;
+            gallery.appendChild(div);
+        });
+    </script>
 
     <!-- Contact -->
     <section id="contact">
         <h2>📬 Contact Me</h2>
         <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/fernando-bellegarde</a></p>
-        <p>Email: <a href="mailto:your@email.com">fernandobellegarde64@gmail.com</a></p>
+        <p>Email: <a href="mailto:fernandobellegarde64@gmail.com">fernandobellegarde64@gmail.com</a></p>
     </section>
 
     <footer>
