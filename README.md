@@ -1,62 +1,105 @@
-# 👋 Hi, I'm Fernando Bellegarde  
+# Fernando Bellegarde | Portfolio
 
-Welcome to my GitHub portfolio!  
-I’m passionate about building **data-driven applications, dashboards, and cloud-native solutions**. My goal is to design systems that are scalable, efficient, and impactful.  
-
-This space highlights my projects, skills, and growth as a developer.  
+Welcome to my developer portfolio! This site showcases my **featured projects**, **more projects**, and provides an easy way to track my growth over time. The portfolio is live on GitHub Pages.
 
 ---
 
-## 🚀 Featured Projects  
+## 📁 Folder Structure
 
-### 🔹 [Employee Dashboard (Flask App)](https://github.com/yourusername/employee-dashboard-flask)  
-- **Description:** A web-based dashboard to manage employees, track shifts, and highlight top performers.  
-- **Tech Stack:** Python, Flask, SQLite, Bootstrap  
-- **Key Features:**  
-  - Add and manage employees  
-  - Track shifts and performance  
-  - Manager/employee role views  
-- **Demo/Screenshot:** *(insert image or GIF)*  
+portfolio/
+├── site/ # HTML/CSS/JS for the live portfolio
+│ ├── index.html # Main portfolio page
+│ ├── style.css # Styles
+│ ├── script.js # Dark mode toggle
+│ └── more-projects/ # Screenshots for smaller projects (dynamic gallery)
+├── employee-dashboard-flask/
+│ └── screenshots/demo.png # Screenshot for featured project
+├── sales-analytics-streamlit/
+│ └── screenshots/demo.png
+├── nba-data-scraper/
+│ └── screenshots/demo.png
+└── README.md
 
----
-
-### 🔹 [Sales Analytics Dashboard (Streamlit)](https://github.com/yourusername/sales-analytics-streamlit)  
-- **Description:** A real-time sales analysis dashboard for visualizing quantity, fees, and profit.  
-- **Tech Stack:** Python, Streamlit, Pandas  
-- **Key Features:**  
-  - Interactive charts of sales trends  
-  - Automatic calculation of fees and net profit  
-  - Export results to Excel  
+markdown
+Copy code
 
 ---
 
-### 🔹 [NBA Data Scraper & Email Report](https://github.com/yourusername/nba-data-scraper)  
-- **Description:** A Python script that scrapes NBA stats, saves data into CSV, and automatically emails results.  
-- **Tech Stack:** Python, BeautifulSoup, smtplib  
-- **Key Features:**  
-  - Automated scraping and cleaning  
-  - Scheduled email delivery  
-  - CSV export for analysis  
+## 🚀 Featured Projects
+
+1. **Employee Dashboard (Flask App)**  
+   ![Employee Dashboard](employee-dashboard-flask/screenshots/demo.png)  
+   [View Repo](https://github.com/yourusername/employee-dashboard-flask)  
+   ![Stars](https://img.shields.io/github/stars/yourusername/employee-dashboard-flask?style=flat-square) 
+   ![Forks](https://img.shields.io/github/forks/yourusername/employee-dashboard-flask?style=flat-square) 
+   ![Language](https://img.shields.io/github/languages/top/yourusername/employee-dashboard-flask?style=flat-square) 
+   ![Last Commit](https://img.shields.io/github/last-commit/yourusername/employee-dashboard-flask?style=flat-square) 
+
+2. **Sales Analytics Dashboard (Streamlit)**  
+   ![Sales Analytics](sales-analytics-streamlit/screenshots/demo.png)  
+   [View Repo](https://github.com/yourusername/sales-analytics-streamlit)  
+   ![Stars](https://img.shields.io/github/stars/yourusername/sales-analytics-streamlit?style=flat-square) 
+   ![Forks](https://img.shields.io/github/forks/yourusername/sales-analytics-streamlit?style=flat-square) 
+   ![Language](https://img.shields.io/github/languages/top/yourusername/sales-analytics-streamlit?style=flat-square) 
+   ![Last Commit](https://img.shields.io/github/last-commit/yourusername/sales-analytics-streamlit?style=flat-square) 
+
+3. **NBA Data Scraper & Email Report**  
+   ![NBA Scraper](nba-data-scraper/screenshots/demo.png)  
+   [View Repo](https://github.com/yourusername/nba-data-scraper)  
+   ![Stars](https://img.shields.io/github/stars/yourusername/nba-data-scraper?style=flat-square) 
+   ![Forks](https://img.shields.io/github/forks/yourusername/nba-data-scraper?style=flat-square) 
+   ![Language](https://img.shields.io/github/languages/top/yourusername/nba-data-scraper?style=flat-square) 
+   ![Last Commit](https://img.shields.io/github/last-commit/yourusername/nba-data-scraper?style=flat-square) 
 
 ---
 
-## 📈 Learning & Growth  
-I use GitHub not just to store code but to **track my progress and growth** as a developer.  
-- 🌱 Building increasingly complex projects  
-- 📝 Writing clear documentation (`README.md`)  
-- 🔧 Continuously improving earlier projects with new skills  
+## 🛠 More Projects
+
+- Screenshots for smaller projects are in `site/more-projects/`.
+- To add a new small project:
+  1. Add a new image to `site/more-projects/`.
+  2. Update the `projects` array in `site/index.html` with the image path, project name, and repo link.
+- The gallery automatically updates on page load.
 
 ---
 
-## 🛠 Skills  
-- **Languages:** Python, SQL, JavaScript  
-- **Frameworks & Tools:** Flask, Streamlit, React, Pandas, Docker, AWS  
-- **Other:** Git, GitHub Actions, REST APIs, Data Analysis  
+## 🌙 Dark Mode
+
+- Click the 🌙 button in the navbar to toggle dark mode.
+- Fully compatible with all sections, including featured projects and gallery.
 
 ---
 
-## 📬 Let’s Connect  
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-- **Email:** your@email.com  
+## 📦 Deployment via GitHub Pages
+
+1. Push the `portfolio` repo to GitHub.
+2. Go to **Settings → Pages**.
+3. Under **Source**, select:
+   - Branch: `main`  
+   - Folder: `/site`
+4. Save. Your live portfolio will be available at:
+
+https://yourusername.github.io/portfolio/
+
+yaml
+Copy code
 
 ---
+
+## 🔄 Updating Your Portfolio
+
+- **Add/Update screenshots:** Replace `demo.png` files in each project or add to `site/more-projects/`.
+- **Update Featured Projects badges:** Change the Shields.io URLs in `index.html`.
+- **Add new small projects:** Add images and entries in the `projects` array for dynamic gallery.
+- **Push changes to GitHub:** The site updates automatically via Pages.
+
+---
+
+## 📬 Contact Me
+
+- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+- Email: your@email.com
+
+---
+
+*This portfolio is designed for minimal maintenance and maximum professionalism, showcasing my skills and growth to potential employers.*
