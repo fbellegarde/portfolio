@@ -1,74 +1,52 @@
-# Fernando Bellegarde | Portfolio
+# Fernando Bellegarde | Portfolio Source
 
-Welcome to my developer portfolio! This site showcases my **featured projects**, **more projects**, and provides an easy way to track my growth over time. The portfolio is live on GitHub Pages.
+Welcome to the source repository for my professional developer portfolio. This site serves as a live, centralized dashboard showcasing my work in autonomous orchestration, sovereign AI ecosystems, and high-performance microservices.
+
+The portfolio is live on GitHub Pages: [fbellegarde.github.io/portfolio](https://fbellegarde.github.io/portfolio/)
 
 ---
 
 ## 📁 Folder Structure
 
+```text
 portfolio/
-├── site/ # HTML/CSS/JS for the live portfolio
-│ ├── index.html # Main portfolio page
-│ ├── style.css # Styles
-│ ├── script.js # Dark mode toggle
-│ └── more-projects/ # Screenshots for smaller projects (dynamic gallery)
-├── employee-dashboard-flask/
-│ └── screenshots/demo.png # Screenshot for featured project
-├── sales-analytics-streamlit/
-│ └── screenshots/demo.png
-├── nba-data-scraper/
-│ └── screenshots/demo.png
-└── README.md
+├── _config.yml         # Jekyll configuration for GitHub Pages
+├── index.html          # Main portfolio UI
+├── style.css           # Styling and dark-mode frameworks
+├── script.js           # Interactive UI toggles
+└── README.md           # Documentation
 
-markdown
-Copy code
+🚀 Featured Architectures
+1. Project Apex / S.A.R.A. OS
+A bare-metal, multi-container private AI ecosystem engineered for strict data sovereignty and local inference without public cloud APIs.
+2. CopyrightChannelBot
+A headless, highly-resilient media automation engine utilizing Directed Acyclic Graphs (DAGs) to autonomously synthesize web documents into broadcast-ready videos.
+3. Amazon ALPS & Operations Suite
+A suite of full-stack operational tools and digital twin simulations, utilizing machine learning for predictive staffing in fulfillment environments.
+🛠 Additional Microservices
+The portfolio includes a dynamically generated grid utilizing vanilla JavaScript to showcase additional systems:
+ Gridiron Nexus: A Rust/Go distributed microservices architecture for real-time sports intelligence.
+ OnlySales Pipeline Engine: A high-performance data sanitization and lead-scrubbing framework.
+ Neo-Navidrome: A sovereign, AI-augmented full-stack media ecosystem.
+To add new projects to the grid, simply update the ⁠projects⁠ JSON array located at the bottom of the ⁠index.html⁠ file. The gallery will automatically re-render upon page load.
+🌙 UI Features
+ Native Dark Mode: Fully functional dark mode persistence utilizing CSS class toggles via ⁠script.js⁠.
+ Responsive Grid: The CSS utilizes ⁠minmax⁠ grid templates to ensure the UI scales perfectly across desktop, mobile, and tablet interfaces without the bloat of external frameworks.
+ Live Build Badges: Real-time Shields.io integrations displaying repository health, stars, and last-commit timestamps.
+📦 Deployment via GitHub Pages
+This site utilizes GitHub Pages for zero-maintenance CI/CD hosting.
+1. Push the ⁠portfolio⁠ repo to the ⁠main⁠ branch.
+2. Navigate to the repository Settings → Pages.
+3. Under Build and deployment, ensure the source is set to Deploy from a branch.
+4. Select the ⁠main⁠ branch and ⁠/ (root)⁠ folder.
+5. Save. Updates pushed to ⁠main⁠ will automatically compile and deploy globally.
+📬 Contact
+ LinkedIn: linkedin.com/in/fernando-bellegarde-381316b1
+ Hugging Face: huggingface.co/fbellegarde
+ Email: fernandobellegarde64@gmail.com
 
----
 
-## 🚀 Featured Projects
 
-1. **Employee Dashboard (Flask App)**  
-   ![Employee Dashboard](employee-dashboard-flask/screenshots/demo.png)  
-   [View Repo](https://github.com/yourusername/employee-dashboard-flask)  
-   ![Stars](https://img.shields.io/github/stars/yourusername/employee-dashboard-flask?style=flat-square) 
-   ![Forks](https://img.shields.io/github/forks/yourusername/employee-dashboard-flask?style=flat-square) 
-   ![Language](https://img.shields.io/github/languages/top/yourusername/employee-dashboard-flask?style=flat-square) 
-   ![Last Commit](https://img.shields.io/github/last-commit/yourusername/employee-dashboard-flask?style=flat-square) 
-
-2. **Sales Analytics Dashboard (Streamlit)**  
-   ![Sales Analytics](sales-analytics-streamlit/screenshots/demo.png)  
-   [View Repo](https://github.com/yourusername/sales-analytics-streamlit)  
-   ![Stars](https://img.shields.io/github/stars/yourusername/sales-analytics-streamlit?style=flat-square) 
-   ![Forks](https://img.shields.io/github/forks/yourusername/sales-analytics-streamlit?style=flat-square) 
-   ![Language](https://img.shields.io/github/languages/top/yourusername/sales-analytics-streamlit?style=flat-square) 
-   ![Last Commit](https://img.shields.io/github/last-commit/yourusername/sales-analytics-streamlit?style=flat-square) 
-
-3. **NBA Data Scraper & Email Report**  
-   ![NBA Scraper](nba-data-scraper/screenshots/demo.png)  
-   [View Repo](https://github.com/yourusername/nba-data-scraper)  
-   ![Stars](https://img.shields.io/github/stars/yourusername/nba-data-scraper?style=flat-square) 
-   ![Forks](https://img.shields.io/github/forks/yourusername/nba-data-scraper?style=flat-square) 
-   ![Language](https://img.shields.io/github/languages/top/yourusername/nba-data-scraper?style=flat-square) 
-   ![Last Commit](https://img.shields.io/github/last-commit/yourusername/nba-data-scraper?style=flat-square) 
-
----
-
-## 🛠 More Projects
-
-- Screenshots for smaller projects are in `site/more-projects/`.
-- To add a new small project:
-  1. Add a new image to `site/more-projects/`.
-  2. Update the `projects` array in `site/index.html` with the image path, project name, and repo link.
-- The gallery automatically updates on page load.
-
----
-
-## 🌙 Dark Mode
-
-- Click the 🌙 button in the navbar to toggle dark mode.
-- Fully compatible with all sections, including featured projects and gallery.
-
----
 
 ## 📦 Deployment via GitHub Pages
 
@@ -95,11 +73,5 @@ Copy code
 
 ---
 
-## 📬 Contact Me
-
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/fernando-bellegarde-381316b1)  
-- Email: fernandobellegarde64@gmail.com
-
----
 
 *This portfolio is designed for minimal maintenance and maximum professionalism, showcasing my skills and growth to potential employers.*
