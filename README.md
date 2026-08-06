@@ -16,24 +16,24 @@ portfolio/
 ├── script.js           # Interactive UI toggles
 └── README.md           # Documentation
 
-🚀 Featured Architectures
+## 🚀 Featured Architectures
 1. Project Apex / S.A.R.A. OS
 A bare-metal, multi-container private AI ecosystem engineered for strict data sovereignty and local inference without public cloud APIs.
 2. CopyrightChannelBot
 A headless, highly-resilient media automation engine utilizing Directed Acyclic Graphs (DAGs) to autonomously synthesize web documents into broadcast-ready videos.
 3. Amazon ALPS & Operations Suite
 A suite of full-stack operational tools and digital twin simulations, utilizing machine learning for predictive staffing in fulfillment environments.
-🛠 Additional Microservices
+## 🛠 Additional Microservices
 The portfolio includes a dynamically generated grid utilizing vanilla JavaScript to showcase additional systems:
  Gridiron Nexus: A Rust/Go distributed microservices architecture for real-time sports intelligence.
  OnlySales Pipeline Engine: A high-performance data sanitization and lead-scrubbing framework.
  Neo-Navidrome: A sovereign, AI-augmented full-stack media ecosystem.
 To add new projects to the grid, simply update the ⁠projects⁠ JSON array located at the bottom of the ⁠index.html⁠ file. The gallery will automatically re-render upon page load.
-🌙 UI Features
+## 🌙 UI Features
  Native Dark Mode: Fully functional dark mode persistence utilizing CSS class toggles via ⁠script.js⁠.
  Responsive Grid: The CSS utilizes ⁠minmax⁠ grid templates to ensure the UI scales perfectly across desktop, mobile, and tablet interfaces without the bloat of external frameworks.
  Live Build Badges: Real-time Shields.io integrations displaying repository health, stars, and last-commit timestamps.
-📦 Deployment via GitHub Pages
+## 📦 Deployment via GitHub Pages
 This site utilizes GitHub Pages for zero-maintenance CI/CD hosting.
 1. Push the ⁠portfolio⁠ repo to the ⁠main⁠ branch.
 2. Navigate to the repository Settings → Pages.
@@ -59,7 +59,7 @@ Copy code
 - **Add new small projects:** Add images and entries in the `projects` array for dynamic gallery.
 - **Push changes to GitHub:** The site updates automatically via Pages.
 
-📬 Contact
+## 📬 Contact
  LinkedIn: linkedin.com/in/fernando-bellegarde-381316b1
  Hugging Face: huggingface.co/fbellegarde
  Email: devopsfernando17@gmail.com
