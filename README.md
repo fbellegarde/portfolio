@@ -1,6 +1,6 @@
 # Fernando Bellegarde | Portfolio Source
 
-Welcome to the source repository for my professional developer portfolio. This site serves as a live, centralized dashboard showcasing my work in autonomous orchestration, sovereign AI ecosystems, and high-performance microservices.
+Welcome to the source repository for my professional developer portfolio. This site serves as a live, centralized dashboard showcasing my work in AI & Machine Learning development as well as networking, database & systems management.
 
 The portfolio is live on GitHub Pages: [fbellegarde.github.io/portfolio](https://fbellegarde.github.io/portfolio/)
 
@@ -43,7 +43,7 @@ This site utilizes GitHub Pages for zero-maintenance CI/CD hosting.
 📬 Contact
  LinkedIn: linkedin.com/in/fernando-bellegarde-381316b1
  Hugging Face: huggingface.co/fbellegarde
- Email: fernandobellegarde64@gmail.com
+ Email: devopsfernando17@gmail.com
 
 
 
