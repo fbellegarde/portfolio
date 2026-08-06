@@ -80,47 +80,56 @@
             {
                 img: 'image_3.png', 
                 name: 'Gridiron Nexus v2.0', 
-                link: 'https://github.com/fbellegarde/Gridiron-Nexus'
+                link: 'https://github.com/fbellegarde/Gridiron-Nexus',
+                description: 'A high-fidelity microservices architecture utilizing Rust and Go for real-time fantasy football predictive analysis.'
             },
             {
                 img: 'image.png', 
                 name: 'OnlySales Pipeline Engine', 
-                link: 'https://github.com/fbellegarde/insurance_project'
+                link: 'https://github.com/fbellegarde/insurance_project',
+                description: 'A privacy-first data sanitization and lead-scrubbing framework integrating Node-RED and custom CRM webhooks.'
             },
             {
                 img: 'image_7.png', 
                 name: 'S.A.R.A. Nexus Browser', 
-                link: 'https://github.com/fbellegarde/SARA_Browser'
+                link: 'https://github.com/fbellegarde/SARA_Browser',
+                description: 'A sovereign, native Windows web browser with an integrated Chromium engine and context-aware LLM sidebar.'
             },
             {
                 img: 'image_4.png', 
                 name: 'SARA LoRA Training Room', 
-                link: 'https://github.com/fbellegarde/SARA_lora_training_room'
+                link: 'https://github.com/fbellegarde/SARA_lora_training_room',
+                description: 'A localized AI studio environment engineered for fine-tuning and managing custom low-rank adaptation (LoRA) models.'
             },
             {
                 img: 'image_9.png', 
                 name: 'PART: Station Audit Terminal', 
-                link: 'https://github.com/fbellegarde/PART'
+                link: 'https://github.com/fbellegarde/PART',
+                description: 'A localized shift-readiness tracking tool deployed via Docker to ensure 100% station utilization before volume spikes.'
             },
             {
                 img: 'https://raw.githubusercontent.com/fbellegarde/Atlas_Warden/main/screenshots/demo.png', 
                 name: 'ATLAS Bare-Metal Warden', 
-                link: 'https://github.com/fbellegarde/Atlas_Warden'
+                link: 'https://github.com/fbellegarde/Atlas_Warden',
+                description: 'A continuous background daemon orchestrating system resources, purging bloatware, and managing local AI container lifecycles.'
             },
             {
                 img: 'https://raw.githubusercontent.com/fbellegarde/custom-navidrome/main/screenshots/demo.png', 
                 name: 'Neo-Navidrome', 
-                link: 'https://github.com/fbellegarde/custom-navidrome'
+                link: 'https://github.com/fbellegarde/custom-navidrome',
+                description: 'A containerized, AI-augmented full-stack media ecosystem with direct Spotify-to-local bridging and native yt-dlp extraction.'
             },
             {
                 img: 'https://raw.githubusercontent.com/fbellegarde/amazon_labor_board/main/screenshots/demo.png', 
                 name: 'Amazon Labor Board', 
-                link: 'https://github.com/fbellegarde/amazon_labor_board'
+                link: 'https://github.com/fbellegarde/amazon_labor_board',
+                description: 'A custom suite of full-stack web applications and trackers automating labor moves and end-of-shift reporting workflows.'
             },
             {
                 img: 'https://raw.githubusercontent.com/fbellegarde/am-workflow-suite/main/screenshots/demo.png', 
                 name: 'AM Workflow Suite', 
-                link: 'https://github.com/fbellegarde/am-workflow-suite'
+                link: 'https://github.com/fbellegarde/am-workflow-suite',
+                description: 'Custom Python scripts and tools engineered to optimize operational KPIs, safety investigations, and leadership workflows.'
             }
         ];
 
@@ -129,7 +138,8 @@
             div.className = 'gallery-item';
             div.innerHTML = `
                 <img src="${p.img}" alt="${p.name} interface" style="width: 100%; border-radius: 4px; object-fit: cover; margin-bottom: 10px;">
-                <p><strong><a href="${p.link}">${p.name}</a></strong></p>
+                <p style="margin-bottom: 6px;"><strong><a href="${p.link}">${p.name}</a></strong></p>
+                <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin-top: 0;">${p.description}</p>
             `;
             gallery.appendChild(div);
         });
