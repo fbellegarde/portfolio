@@ -40,16 +40,6 @@ This site utilizes GitHub Pages for zero-maintenance CI/CD hosting.
 3. Under Build and deployment, ensure the source is set to Deploy from a branch.
 4. Select the ⁠main⁠ branch and ⁠/ (root)⁠ folder.
 5. Save. Updates pushed to ⁠main⁠ will automatically compile and deploy globally.
-📬 Contact
- LinkedIn: linkedin.com/in/fernando-bellegarde-381316b1
- Hugging Face: huggingface.co/fbellegarde
- Email: devopsfernando17@gmail.com
-
-
-
-
-## 📦 Deployment via GitHub Pages
-
 1. Push the `portfolio` repo to GitHub.
 2. Go to **Settings → Pages**.
 3. Under **Source**, select:
@@ -71,7 +61,8 @@ Copy code
 - **Add new small projects:** Add images and entries in the `projects` array for dynamic gallery.
 - **Push changes to GitHub:** The site updates automatically via Pages.
 
----
+📬 Contact
+ LinkedIn: linkedin.com/in/fernando-bellegarde-381316b1
+ Hugging Face: huggingface.co/fbellegarde
+ Email: devopsfernando17@gmail.com
 
-
-*This portfolio is designed for minimal maintenance and maximum professionalism, showcasing my skills and growth to potential employers.*
