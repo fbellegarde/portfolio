@@ -52,8 +52,6 @@ https://yourusername.github.io/portfolio/
 yaml
 Copy code
 
----
-
 ## 🔄 Updating Your Portfolio
 
 - **Add/Update screenshots:** Replace `demo.png` files in each project or add to `site/more-projects/`.
