@@ -60,7 +60,7 @@ Copy code
 - **Push changes to GitHub:** The site updates automatically via Pages.
 
 ## 📬 Contact
- LinkedIn: linkedin.com/in/fernando-bellegarde-381316b1
+ LinkedIn: https://www.linkedin.com/in/fernando-bellegarde-381316b1
  Hugging Face: huggingface.co/fbellegarde
  Email: devopsfernando17@gmail.com
 
